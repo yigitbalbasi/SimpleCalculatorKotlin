@@ -13,10 +13,11 @@ xmlns:tools="http://schemas.android.com/tools">
     android:theme="@style/Theme.SimpleCalculator.Splash"
     tools:targetApi="31">
     <activity
-        android:name=".MainActivity"
+
         android:exported="true"
         android:label="@string/app_name"
-        android:theme="@style/Theme.SimpleCalculator.Splash">
+        android:theme="@style/Theme.SimpleCalculator.Splash"
+        android:name=".MainActivity">
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
 
